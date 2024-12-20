@@ -9,7 +9,7 @@ from sklearn import metrics
 import streamlit as st
 
 # Load dataset
-salary_dataset = pd.read_csv('./data/Salary Data.csv')
+salary_dataset = pd.read_csv('./Salary Data.csv')
 
 # Data preprocessing
 salary_dataset.dropna(inplace=True)
